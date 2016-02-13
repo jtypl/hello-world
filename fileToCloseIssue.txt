@@ -1,1 +1,2 @@
 Zmena tento soubor bude pouzit pro vyvoj.
+Mozna i pro dalsi ucely.
