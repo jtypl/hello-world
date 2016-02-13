@@ -2,5 +2,6 @@ Toto je testovaci soubor ktery se pouziva vsude:
 Banan
 Jablko
 Losos
+Paratka
 Kruta
 A tak podobně
