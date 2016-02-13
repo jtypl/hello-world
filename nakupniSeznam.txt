@@ -1,6 +1,7 @@
 Toto je testovaci soubor ktery se pouziva vsude:
 Banan
 Jablko
+Toaletak
 Losos
 Paratka
 Kruta
