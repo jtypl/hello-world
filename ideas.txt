@@ -1,0 +1,63 @@
+
+Úvod
+=============
+Vyhrali jsme 1mil. Nemá smysl si to rozdělovat, ale uspořádáme oslavu pro celou společnost. Firma se rozhodla, ze pokud jsme tak stedri tak jeste prida 500t, ale vyhrazuje si pravo pripominkovat nas postup. Pracujeme samostatne.
+
+- Kazdy tyden mame v pondeli status meeting s managerem 
+- Kazdou stredu máme vlastní synchro meeting
+
+Celkem se tedy nabízí šest milestones.
+
+(1) Pondělí - zahájení  
+(2) Středa - prvotní interni revize nápadů
+(3) Pondeli - Seznam ucastniku; Pridani kodu pro cinnosti
+(4)  
+
+(1) Pondělí - zahájení  
+Tomáš nás vítá manager nás vítá. V prvním týdnu jsme dostali za úkol vyřešit celkovou koncepci, posbírat nápady. Rozdělit je a prezentovat základní 
+návrh. Podle zvolené oblasti napište nápady na to co by bylo požné pořádat a zajistit. Napište co nejvíce nápadů, příliš je necenzurujte. Je to brainstorming.
+
+Oblasti {
+ Doprava
+ Ubytovani
+ Zabava
+ Pohosteni
+ Dary
+}
+
+(2) Středa - prvotní interni revize nápadů
+Podařilo se posbírat dost nápadů. Nyní je potřeba je vyčistit a utřídit. Projděte seznamy nápadů a nápady rozdělte do kategorii. Každý soubor do 2 az tri kategorii. Celkem 6 az 9 polozek. Kazda kategorie ma nadpis ve formatu nize. Abychom byli pri rozdelovani objektivni provede revizi team po prave ruce.
+
+##
+## Nadpis kategorie
+##
+
+(3) Pondeli - Seznam ucastniku; Pridani kodu pro cinnosti
+Review probehlo pozitivne. Nyní je třeba 
+
+(4)  
+(3) 
+Doprava
+ - letadlo
+ - autem
+ - autobusem
+
+Ubytovani
+ - 1 luzko
+ - 2 luzko
+ - nocleharna
+
+Zabava
+ - Hudba
+ - Tanec
+ - Sport
+
+Pohosteni
+ - Kvetinova vyzdoba
+ 
+Dary na privitanou  
+ - Pro všechny
+ - Pro test team
+ - Pro speciální hosty
+
+Posunte si 
