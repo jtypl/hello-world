@@ -1,27 +1,37 @@
 #!/bin/bash
 
+debug="1"
 
 function helpDie() {
   echo "This is help" 1>&2
-  echo "diing because: $@"
+  [ -n "$1" ] && echo "reason: $@"
   exit
 }
 
-declare -a la_options
-la_options=($(getopt -o a::b:d -- $@ 2> /dev/null))
-if [ $? -ne 0 ]; then
-  optionsErr=$((getopt -o a::b:d -- $@ > /dev/null) 2>&1) 
-  helpDie ${optionsErr}
-fi
+function dumpVar() {
+ if [[ "${debug}" ]]; then
+   echo $1=\"$(eval echo -n '$'$1)\"
+ fi
+}
 
-i=0
-while [ ! -z "${la_options[${i}]}" ]; do
-  echo "option #${i}: ${la_options[${i}]}"
-  if [ -z ${la_options[${i}]} ]; then
-    echo "empty option #${i}"
+function parseCommandLine () {
+  declare -a la_options=($(getopt -o c::shH -- $@))
+  if [ $? -ne 0 ]; then
+    helpDie
   fi
-  if [ "${la_options[${i}]}"  == "''" ]; then
-    echo "empty option #${i}"
-  fi
-  ((i++))
-done
+
+  cnt=0
+  for i in ${la_options[@]}; do
+    echo "option #${cnt}: ${i}"
+    if [ "${i}" == "''" ]; then
+      echo "empty option# ${i}"
+    fi
+    ((cnt++))
+  done
+}
+
+function main () {
+  parseCommandLine "$@"
+}
+
+main "$@"
