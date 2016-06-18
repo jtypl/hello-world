@@ -15,18 +15,18 @@ function dumpVar() {
 }
 
 function parseCommandLine () {
-  declare -a la_options=($(getopt -o c::shH -- $@))
-  if [ $? -ne 0 ]; then
+  ARGV=$@
+  OPTION_STRING="c::shH"
+  if ! la_options=($(getopt -o ${OPTION_STRING} -- ${ARGV})) ; then
     helpDie
   fi
 
-  cnt=0
-  for i in ${la_options[@]}; do
-    echo "option #${cnt}: ${i}"
-    if [ "${i}" == "''" ]; then
+  while [[ ${la_options[$i]} ]]; do
+    echo "option #${cnt}: ${la_options[$i]}"
+    if [ "$i" == "''" ]; then
       echo "empty option# ${i}"
     fi
-    ((cnt++))
+    ((i++))
   done
 }
 
