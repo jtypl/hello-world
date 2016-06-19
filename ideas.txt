@@ -32,8 +32,8 @@ Podařilo se posbírat dost nápadů. Nyní je potřeba je vyčistit a utřídit
 ## Nadpis kategorie
 ##
 
-(3) Pondeli - Seznam ucastniku; Pridani kodu pro cinnosti
-Review probehlo pozitivne. Nyní je třeba 
+(3) Pondeli - Seznam ucastniku; 
+Program je rámcově hotový. Nyní je třeba přidat seznam účastníků. Vytřoříme seznam účastníků. Bude to seznam našich jmen aby se situace. Zároveň všichni upravte soubor které máte na sobě.
 
 (4)  
 (3) 
