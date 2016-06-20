@@ -35,12 +35,15 @@ function myDie () {
 
 function parseCmdlineParams () {
   ARGV="$@"
-  OPTION_STRING="c:"
+  OPTION_STRING="m:c:"
   declare -a lsOptions
 
   if ! lsOptions=$(getopt -o "${OPTION_STRING}" -- "${ARGV}") ; then
     helpDie
   fi
+  echo ===
+  echo "${lsOptions}"
+  echo ===
   eval set -- "${lsOptions}"
 
   while true ; do 
@@ -94,6 +97,12 @@ function main () {
     dumpMsg "with string: \"${COMMAND_PREF}" "$(cat)\"" 
   fi
   
+  command="
+    cd /home/u/develop/jobs/$JOB_NAME/workspace
+    source ./jenkins/jen_parameters.sh
+  "    
+  e
+
   #ssh -p 2222 u@127.0.0.1 "cd /home/u/develop/jobs/$JOB_NAME/workspace; source ./jenkins/jen_parameters.sh; source ./jenkins/leveris_testdeploy.sh;"  
 
 }
