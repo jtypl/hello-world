@@ -1,0 +1,32 @@
+##
+## common_runincontainer.sh
+##
+## Initiatest the container, prepares the evnrironment and runs the specified command
+##
+
+1) Checks the environment for the variables which should be set
+2) Transfers environment variables to the file ${WORKSPACE}/jen_parameter.sh
+3) Runs the cbsdev command to start the container
+4) Executes initialization commands in the conatainer. This command should be run only once per container, but we run them every call.
+5) In the container it sources the ${WORKSPACE}/jen_parameters.sh to the non intaractive shell
+6) In the same shell as (5) it runs the specified commands
+
+##
+## Command line parameters
+##
+
+-c --command-string
+  Executes the command which is passed as command line parameter string
+
+-e --external-file
+  Executes the content of the file; The path of the file is set with path outside the container
+
+-f --file-internal
+  Executes the file from the path which is expanded inside the container
+
+-i --init-only
+  Does not run any command just doing the internal initiation
+
+-s --stdin
+  Executes the commands from standard input
+
