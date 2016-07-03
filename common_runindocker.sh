@@ -8,13 +8,13 @@ gbRunFromCommand=0
 gsCommand=
 
 function dumpVar () {
- if [[ "${debug}" ]]; then
+ if [ ! -z "${debug}" ]; then
    echo $1=\"$(eval echo -n '$'$1)\" >&2
  fi
 }
 
 function dumpMsg () {
- if [[ "${debug}" ]]; then
+ if [ ! -z "${debug}" ]; then
    echo "$@" >&2
  fi
 }

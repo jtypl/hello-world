@@ -1,0 +1,43 @@
+[Config]
+Compilator.SaveAll=0
+Compilator.Capture=0
+Compilator.HideOutput=0
+Compilator.LogType=0
+DefaultCPIndex=0
+LogtoEnd=1
+DontOpen=0
+AbsolutePath=0
+FileFormat=0
+ProjectFilesOnly=0
+[Project tree]
+HTML5_learning
+	-resources
+		tutorial.txt
+	-pictures
+		pictures\maly_obrazek.JPG
+	+html_sources
+		tutorial_homepage.html
+		test_1.html
+		test_2.html
+		test_3.html
+		test_4_headings.html
+		test_5_named_blocks.html
+		test_6_picture.html
+		test_7_lists.html
+		recap_8.html
+[Open project files]
+0=test_1.html
+1=test_7_lists.html
+2=..\RCDroidBox\test\jeti_box_profi\DC_16_log\DC16_sample.log
+[Selected Project Files]
+Main=
+Selected=test_1.html
+[test_1.html]
+TopLine=1
+Caret=30,14
+[test_7_lists.html]
+TopLine=1
+Caret=64,14
+[..\RCDroidBox\test\jeti_box_profi\DC_16_log\DC16_sample.log]
+TopLine=1
+Caret=23,29
