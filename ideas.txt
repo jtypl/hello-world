@@ -35,7 +35,7 @@ Podařilo se posbírat dost nápadů. Nyní je potřeba je vyčistit a utřídit
 
 Mohlo to být lepší? Kdo ví?
 Jeste neco
-Tak tady - přidám název salámu
+Tak tady <Sunkovy> přidám název salámu
 
 (3) Pondeli - Seznam ucastniku; 
 Program je rámcově hotový. Nyní je třeba přidat seznam účastníků. Vytřoříme seznam účastníků. Bude to seznam našich jmen aby se situace. Zároveň všichni upravte soubor které máte na sobě.
